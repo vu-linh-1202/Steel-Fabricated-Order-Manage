@@ -1,14 +1,11 @@
 package com.bymyself.SteelFabricatedOrderManage.entities;
 
 
-import jakarta.persistence.*;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import javax.persistence.*;
 
 import java.util.Date;
 
 @Entity
-@NoArgsConstructor
 @Table(name="staff")
 public class Staff {
 
