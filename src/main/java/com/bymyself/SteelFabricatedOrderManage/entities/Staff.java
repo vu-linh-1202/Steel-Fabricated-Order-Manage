@@ -31,6 +31,10 @@ public class Staff {
         this.password = password;
         this.role = role;
     }
+    public Staff()
+    {
+        super();
+    }
 
     public int getStaff_id() {
         return id;
