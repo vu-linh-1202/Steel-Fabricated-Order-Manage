@@ -1,5 +1,6 @@
-package com.bymyself.SteelFabricatedOrderManage.utils;
+package com.bymyself.SteelFabricatedOrderManage.services;
 
+import com.bymyself.SteelFabricatedOrderManage.services.StorageService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.core.io.Resource;
@@ -15,7 +16,7 @@ import java.util.UUID;
 
 @CrossOrigin
 @Component
-public class StorageServiceImpl implements StorageService{
+public class StorageServiceImpl implements StorageService {
     @Value("${disk.upload.basepath}")
     private String BASEPATH;
     @Override

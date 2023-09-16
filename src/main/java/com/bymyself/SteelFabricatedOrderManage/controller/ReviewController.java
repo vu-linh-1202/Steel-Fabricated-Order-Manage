@@ -1,9 +1,7 @@
 package com.bymyself.SteelFabricatedOrderManage.controller;
 
-import com.bymyself.SteelFabricatedOrderManage.entities.Product;
 import com.bymyself.SteelFabricatedOrderManage.entities.Review;
 import com.bymyself.SteelFabricatedOrderManage.services.ReviewService;
-import org.apache.catalina.valves.rewrite.RewriteCond;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

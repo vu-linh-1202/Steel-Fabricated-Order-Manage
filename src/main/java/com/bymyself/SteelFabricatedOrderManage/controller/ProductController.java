@@ -1,6 +1,6 @@
 package com.bymyself.SteelFabricatedOrderManage.controller;
 
-import com.bymyself.SteelFabricatedOrderManage.dto.ProductInputDto;
+
 import com.bymyself.SteelFabricatedOrderManage.dto.ProductUpdateDto;
 import com.bymyself.SteelFabricatedOrderManage.entities.Category;
 import com.bymyself.SteelFabricatedOrderManage.entities.Product;
