@@ -49,6 +49,10 @@ public class Customer {
     @Fetch(value=FetchMode.SUBSELECT)
     private List<Review> reviews;
 
+    public void addOrder(Order order) {
+        orders.add(order);
+    }
+
     public int getId() {
         return id;
     }
